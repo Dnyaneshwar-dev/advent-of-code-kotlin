@@ -4,6 +4,7 @@ fun main() {
     var partOne = false
     var partTwo = false
 
+
     val file = File("./input.txt") //Just copy the output of the website in this file
     val inputArray: Array<Int> = Array(file.bufferedReader().lines().count().toInt()) { i -> i * 1000 }
     val inputArray2: List<String> = file.bufferedReader().readLines()
